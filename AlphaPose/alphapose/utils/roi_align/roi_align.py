@@ -2,7 +2,9 @@ import torch.nn as nn
 from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 from torch.nn.modules.utils import _pair
-from AlphaPose.alphapose.utils.roi_align.src import roi_align_cuda
+
+from . import roi_align_cuda
+
 
 class RoIAlignFunction(Function):
 

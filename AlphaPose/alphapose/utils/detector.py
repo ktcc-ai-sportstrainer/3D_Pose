@@ -9,8 +9,8 @@ import numpy as np
 import torch
 import torch.multiprocessing as mp
 
-from AlphaPose.alphapose.utils.presets import SimpleTransform, SimpleTransform3DSMPL
-from AlphaPose.alphapose.models import builder
+from alphapose.utils.presets import SimpleTransform, SimpleTransform3DSMPL
+from alphapose.models import builder
 
 class DetectionLoader():
     def __init__(self, input_source, detector, cfg, opt, mode='image', batchSize=1, queueSize=128):

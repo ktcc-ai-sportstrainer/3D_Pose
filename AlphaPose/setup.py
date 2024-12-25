@@ -14,7 +14,7 @@ PATCH = 0
 SUFFIX = ''
 SHORT_VERSION = '{}.{}.{}{}'.format(MAJOR, MINOR, PATCH, SUFFIX)
 
-version_file = 'AlphaPose/alphapose/version.py'
+version_file = 'alphapose/version.py'
 
 
 def readme():
